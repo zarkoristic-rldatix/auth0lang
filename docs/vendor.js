@@ -23,7 +23,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "User": () => (/* binding */ ie),
 /* harmony export */   "createAuth0Client": () => (/* binding */ oe)
 /* harmony export */ });
-/* harmony import */ var C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 
 function e(e, t) {
   var i = {};
@@ -393,7 +393,7 @@ const w = () => window.crypto,
   },
   v = e => (e => decodeURIComponent(atob(e).split("").map(e => "%" + ("00" + e.charCodeAt(0).toString(16)).slice(-2)).join("")))(e.replace(/_/g, "/").replace(/-/g, "+")),
   _ = /*#__PURE__*/function () {
-    var _ref = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t) {
+    var _ref = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t) {
       const i = yield fetch(e, t);
       return {
         ok: i.ok,
@@ -405,7 +405,7 @@ const w = () => window.crypto,
     };
   }(),
   I = /*#__PURE__*/function () {
-    var _ref2 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t, i) {
+    var _ref2 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t, i) {
       const o = new AbortController();
       let n;
       return t.signal = o.signal, Promise.race([_(e, t), new Promise((e, t) => {
@@ -421,7 +421,7 @@ const w = () => window.crypto,
     };
   }(),
   S = /*#__PURE__*/function () {
-    var _ref3 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t, i, o, n, a, s) {
+    var _ref3 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t, i, o, n, a, s) {
       return r = {
         auth: {
           audience: t,
@@ -444,7 +444,7 @@ const w = () => window.crypto,
     };
   }(),
   T = /*#__PURE__*/function () {
-    var _ref4 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t, i, o, n, a, s = 1e4) {
+    var _ref4 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t, i, o, n, a, s = 1e4) {
       return n ? S(e, t, i, o, s, n, a) : I(e, o, s);
     });
     return function T(_x13, _x14, _x15, _x16, _x17, _x18) {
@@ -455,7 +455,7 @@ function O(_x19, _x20) {
   return _O.apply(this, arguments);
 }
 function _O() {
-  _O = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, i) {
+  _O = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, i) {
     var {
         baseUrl: o,
         timeout: n,
@@ -467,7 +467,7 @@ function _O() {
       l = e(t, ["baseUrl", "timeout", "audience", "scope", "auth0Client", "useFormData"]);
     const h = u ? b(l) : JSON.stringify(l);
     return yield function () {
-      var _ref9 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, i, o, n, a, s, r) {
+      var _ref9 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (t, i, o, n, a, s, r) {
         let c,
           u = null;
         for (let e = 0; e < 3; e++) try {
@@ -584,7 +584,7 @@ class P {
   }
   setIdToken(e, t, i) {
     var _this = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var o;
       const n = _this.getIdTokenCacheKey(e);
       yield _this.cache.set(n, {
@@ -595,7 +595,7 @@ class P {
   }
   getIdToken(e) {
     var _this2 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = yield _this2.cache.get(_this2.getIdTokenCacheKey(e.clientId));
       if (!t && e.scope && e.audience) {
         const t = yield _this2.get(e);
@@ -614,7 +614,7 @@ class P {
   }
   get(e, t = 0) {
     var _this3 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var i;
       let o = yield _this3.cache.get(e.toKey());
       if (!o) {
@@ -633,7 +633,7 @@ class P {
   }
   set(e) {
     var _this4 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var t;
       const i = new C({
           clientId: e.client_id,
@@ -646,11 +646,11 @@ class P {
   }
   clear(e) {
     var _this5 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var t;
       const i = yield _this5.getCacheKeys();
       i && (yield i.filter(t => !e || t.includes(e)).reduce( /*#__PURE__*/function () {
-        var _ref5 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t) {
+        var _ref5 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t) {
           yield e, yield _this5.cache.remove(t);
         });
         return function (_x21, _x22) {
@@ -661,7 +661,7 @@ class P {
   }
   wrapCacheEntry(e) {
     var _this6 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = yield _this6.nowProvider();
       return {
         body: e,
@@ -671,7 +671,7 @@ class P {
   }
   getCacheKeys() {
     var _this7 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var e;
       return _this7.keyManifest ? null === (e = yield _this7.keyManifest.get()) || void 0 === e ? void 0 : e.keys : _this7.cache.allKeys ? _this7.cache.allKeys() : void 0;
     })();
@@ -900,7 +900,7 @@ class $ {
   }
   add(e) {
     var _this8 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var t;
       const i = new Set((null === (t = yield _this8.cache.get(_this8.manifestKey)) || void 0 === t ? void 0 : t.keys) || []);
       i.add(e), yield _this8.cache.set(_this8.manifestKey, {
@@ -910,7 +910,7 @@ class $ {
   }
   remove(e) {
     var _this9 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = yield _this9.cache.get(_this9.manifestKey);
       if (t) {
         const i = new Set(t.keys);
@@ -956,7 +956,7 @@ class te {
       },
       useRefreshTokensFallback: !1,
       useFormData: !0
-    }, this._releaseLockOnPageHide = /*#__PURE__*/(0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    }, this._releaseLockOnPageHide = /*#__PURE__*/(0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       yield ee.releaseLock("auth0.lock.getTokenSilently"), window.removeEventListener("pagehide", _this10._releaseLockOnPageHide);
     }), this.options = Object.assign(Object.assign(Object.assign({}, this.defaultOptions), e), {
       authorizationParams: Object.assign(Object.assign({}, this.defaultOptions.authorizationParams), e.authorizationParams)
@@ -981,7 +981,7 @@ class te {
   }
   _verifyIdToken(e, t, i) {
     var _this11 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const o = yield _this11.nowProvider();
       return E({
         iss: _this11.tokenIssuer,
@@ -1006,7 +1006,7 @@ class te {
   }
   _prepareAuthorizeUrl(e, t, i) {
     var _this12 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const o = k(y()),
         n = k(y()),
         a = y(),
@@ -1021,7 +1021,7 @@ class te {
             return e.replace(/[+/=]/g, e => t[e]);
           })(window.btoa(String.fromCharCode(...Array.from(t))));
         })(yield function () {
-          var _ref7 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e) {
+          var _ref7 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e) {
             const t = w().subtle.digest({
               name: "SHA-256"
             }, new TextEncoder().encode(e));
@@ -1057,7 +1057,7 @@ class te {
   }
   loginWithPopup(e, t) {
     var _this13 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var i;
       if (e = e || {}, !(t = t || {}).popup && (t.popup = (e => {
         const t = window.screenX + (window.innerWidth - 400) / 2,
@@ -1102,7 +1102,7 @@ class te {
   }
   getUser() {
     var _this14 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var e;
       const t = yield _this14._getIdTokenFromCache();
       return null === (e = null == t ? void 0 : t.decodedToken) || void 0 === e ? void 0 : e.user;
@@ -1110,7 +1110,7 @@ class te {
   }
   getIdTokenClaims() {
     var _this15 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var e;
       const t = yield _this15._getIdTokenFromCache();
       return null === (e = null == t ? void 0 : t.decodedToken) || void 0 === e ? void 0 : e.claims;
@@ -1118,7 +1118,7 @@ class te {
   }
   loginWithRedirect(t = {}) {
     var _this16 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var i;
       const o = Q(t),
         {
@@ -1144,7 +1144,7 @@ class te {
   }
   handleRedirectCallback(e = window.location.href) {
     var _this17 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = e.split("?").slice(1);
       if (0 === t.length) throw new Error("There are no query params available for parsing.");
       const {
@@ -1187,7 +1187,7 @@ class te {
   }
   checkSession(e) {
     var _this18 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       if (!_this18.cookieStorage.get(_this18.isAuthenticatedCookieName)) {
         if (!_this18.cookieStorage.get("auth0.is.authenticated")) return;
         _this18.cookieStorage.save(_this18.isAuthenticatedCookieName, !0, {
@@ -1202,7 +1202,7 @@ class te {
   }
   getTokenSilently(e = {}) {
     var _this19 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var t;
       const i = Object.assign(Object.assign({
           cacheMode: "on"
@@ -1222,7 +1222,7 @@ class te {
   }
   _getTokenSilently(t) {
     var _this20 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const {
           cacheMode: i
         } = t,
@@ -1237,7 +1237,7 @@ class te {
       }
       if ("cache-only" !== i) {
         if (!(yield function () {
-          var _ref8 = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t = 3) {
+          var _ref8 = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e, t = 3) {
             for (let i = 0; i < t; i++) if (yield e()) return !0;
             return !1;
           });
@@ -1277,7 +1277,7 @@ class te {
   }
   getTokenWithPopup(e = {}, t = {}) {
     var _this21 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       var i;
       const o = Object.assign(Object.assign({}, e), {
         authorizationParams: Object.assign(Object.assign(Object.assign({}, _this21.options.authorizationParams), e.authorizationParams), {
@@ -1294,7 +1294,7 @@ class te {
   }
   isAuthenticated() {
     var _this22 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       return !!(yield _this22.getUser());
     })();
   }
@@ -1312,7 +1312,7 @@ class te {
   }
   logout(t = {}) {
     var _this23 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const i = Q(t),
         {
           openUrl: o
@@ -1329,7 +1329,7 @@ class te {
   }
   _getTokenFromIFrame(e) {
     var _this24 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = Object.assign(Object.assign({}, e.authorizationParams), {
           prompt: "none"
         }),
@@ -1390,7 +1390,7 @@ class te {
   }
   _getTokenUsingRefreshToken(e) {
     var _this25 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const t = yield _this25.cacheManager.get(new C({
         scope: e.authorizationParams.scope,
         audience: e.authorizationParams.audience || "default",
@@ -1423,7 +1423,7 @@ class te {
   }
   _saveEntryInCache(t) {
     var _this26 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const {
           id_token: i,
           decodedToken: o
@@ -1437,7 +1437,7 @@ class te {
   }
   _getIdTokenFromCache() {
     var _this27 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const e = _this27.options.authorizationParams.audience || "default",
         t = yield _this27.cacheManager.getIdToken(new C({
           clientId: _this27.options.clientId,
@@ -1454,7 +1454,7 @@ class te {
     clientId: i
   }) {
     var _this28 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const o = yield _this28.cacheManager.get(new C({
         scope: e,
         audience: t,
@@ -1480,7 +1480,7 @@ class te {
   }
   _requestToken(e, t) {
     var _this29 = this;
-    return (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const {
           nonceIn: i,
           organizationId: o
@@ -1515,7 +1515,7 @@ function oe(_x25) {
   return _oe.apply(this, arguments);
 }
 function _oe() {
-  _oe = (0,C_Tasks_20230207_AuthMultilanguage_angular_sample_01_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e) {
+  _oe = (0,C_Repositories_auth0lang_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (e) {
     const t = new te(e);
     return yield t.checkSession(), t;
   });
@@ -78327,8 +78327,8 @@ NgbAlert.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2 = goog.getMsg("Close");
-      i18n_1 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2 = goog.getMsg("Close");
+      i18n_1 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_2;
     } else {
       i18n_1 = $localize`:@@ngb.alert.close:Close`;
     }
@@ -78942,7 +78942,7 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
       /**
        * @desc Currently selected slide number read by screen reader
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5 = goog.getMsg(" Slide {$interpolation} of {$interpolation_1} ", {
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5 = goog.getMsg(" Slide {$interpolation} of {$interpolation_1} ", {
         "interpolation": "\uFFFD0\uFFFD",
         "interpolation_1": "\uFFFD1\uFFFD"
       }, {
@@ -78951,7 +78951,7 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
           "interpolation_1": "{{ c }}"
         }
       });
-      i18n_4 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5;
+      i18n_4 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__5;
     } else {
       i18n_4 = $localize`:Currently selected slide number read by screen reader@@ngb.carousel.slide-number: Slide ${"\uFFFD0\uFFFD"}:INTERPOLATION: of ${"\uFFFD1\uFFFD"}:INTERPOLATION_1: `;
     }
@@ -78960,8 +78960,8 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7 = goog.getMsg("Previous");
-      i18n_6 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7 = goog.getMsg("Previous");
+      i18n_6 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__7;
     } else {
       i18n_6 = $localize`:@@ngb.carousel.previous:Previous`;
     }
@@ -78970,8 +78970,8 @@ NgbCarousel.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["�
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9 = goog.getMsg("Next");
-      i18n_8 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9 = goog.getMsg("Next");
+      i18n_8 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__9;
     } else {
       i18n_8 = $localize`:@@ngb.carousel.next:Next`;
     }
@@ -80376,8 +80376,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_14 = goog.getMsg("Select month");
-      i18n_13 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_14;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_14 = goog.getMsg("Select month");
+      i18n_13 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_14;
     } else {
       i18n_13 = $localize`:@@ngb.datepicker.select-month:Select month`;
     }
@@ -80386,8 +80386,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_16 = goog.getMsg("Select month");
-      i18n_15 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_16;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_16 = goog.getMsg("Select month");
+      i18n_15 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_16;
     } else {
       i18n_15 = $localize`:@@ngb.datepicker.select-month:Select month`;
     }
@@ -80396,8 +80396,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_18 = goog.getMsg("Select year");
-      i18n_17 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_18;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_18 = goog.getMsg("Select year");
+      i18n_17 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_18;
     } else {
       i18n_17 = $localize`:@@ngb.datepicker.select-year:Select year`;
     }
@@ -80406,8 +80406,8 @@ NgbDatepickerNavigationSelect.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPO
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_20 = goog.getMsg("Select year");
-      i18n_19 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_20;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_20 = goog.getMsg("Select year");
+      i18n_19 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_20;
     } else {
       i18n_19 = $localize`:@@ngb.datepicker.select-year:Select year`;
     }
@@ -80565,8 +80565,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_22 = goog.getMsg("Previous month");
-      i18n_21 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_22;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_22 = goog.getMsg("Previous month");
+      i18n_21 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_22;
     } else {
       i18n_21 = $localize`:@@ngb.datepicker.previous-month:Previous month`;
     }
@@ -80575,8 +80575,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_24 = goog.getMsg("Previous month");
-      i18n_23 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_24;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_24 = goog.getMsg("Previous month");
+      i18n_23 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_24;
     } else {
       i18n_23 = $localize`:@@ngb.datepicker.previous-month:Previous month`;
     }
@@ -80585,8 +80585,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_26 = goog.getMsg("Next month");
-      i18n_25 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_26;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_26 = goog.getMsg("Next month");
+      i18n_25 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_26;
     } else {
       i18n_25 = $localize`:@@ngb.datepicker.next-month:Next month`;
     }
@@ -80595,8 +80595,8 @@ NgbDatepickerNavigation.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_M
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_28 = goog.getMsg("Next month");
-      i18n_27 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_28;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_28 = goog.getMsg("Next month");
+      i18n_27 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_28;
     } else {
       i18n_27 = $localize`:@@ngb.datepicker.next-month:Next month`;
     }
@@ -86993,8 +86993,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35 = goog.getMsg("\xAB\xAB");
-      i18n_34 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35 = goog.getMsg("\xAB\xAB");
+      i18n_34 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__35;
     } else {
       i18n_34 = $localize`:@@ngb.pagination.first:««`;
     }
@@ -87003,8 +87003,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37 = goog.getMsg("\xAB");
-      i18n_36 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37 = goog.getMsg("\xAB");
+      i18n_36 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__37;
     } else {
       i18n_36 = $localize`:@@ngb.pagination.previous:«`;
     }
@@ -87013,8 +87013,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39 = goog.getMsg("\xBB");
-      i18n_38 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39 = goog.getMsg("\xBB");
+      i18n_38 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__39;
     } else {
       i18n_38 = $localize`:@@ngb.pagination.next:»`;
     }
@@ -87023,8 +87023,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41 = goog.getMsg("\xBB\xBB");
-      i18n_40 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41 = goog.getMsg("\xBB\xBB");
+      i18n_40 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__41;
     } else {
       i18n_40 = $localize`:@@ngb.pagination.last:»»`;
     }
@@ -87033,8 +87033,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45 = goog.getMsg("First");
-      i18n_44 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45 = goog.getMsg("First");
+      i18n_44 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__45;
     } else {
       i18n_44 = $localize`:@@ngb.pagination.first-aria:First`;
     }
@@ -87043,8 +87043,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48 = goog.getMsg("Previous");
-      i18n_47 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48 = goog.getMsg("Previous");
+      i18n_47 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__48;
     } else {
       i18n_47 = $localize`:@@ngb.pagination.previous-aria:Previous`;
     }
@@ -87053,8 +87053,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51 = goog.getMsg("Next");
-      i18n_50 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51 = goog.getMsg("Next");
+      i18n_50 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__51;
     } else {
       i18n_50 = $localize`:@@ngb.pagination.next-aria:Next`;
     }
@@ -87063,8 +87063,8 @@ NgbPagination.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53 = goog.getMsg("Last");
-      i18n_52 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53 = goog.getMsg("Last");
+      i18n_52 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__53;
     } else {
       i18n_52 = $localize`:@@ngb.pagination.last-aria:Last`;
     }
@@ -87954,14 +87954,14 @@ NgbProgressbar.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56 = goog.getMsg("{$interpolation}", {
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56 = goog.getMsg("{$interpolation}", {
         "interpolation": "\uFFFD0\uFFFD"
       }, {
         original_code: {
           "interpolation": "{{ getValue() / max | percent }}"
         }
       });
-      i18n_55 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56;
+      i18n_55 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__56;
     } else {
       i18n_55 = $localize`:@@ngb.progressbar.value:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
     }
@@ -88833,8 +88833,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58 = goog.getMsg("HH");
-      i18n_57 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58 = goog.getMsg("HH");
+      i18n_57 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_58;
     } else {
       i18n_57 = $localize`:@@ngb.timepicker.HH:HH`;
     }
@@ -88843,8 +88843,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60 = goog.getMsg("Hours");
-      i18n_59 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60 = goog.getMsg("Hours");
+      i18n_59 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_60;
     } else {
       i18n_59 = $localize`:@@ngb.timepicker.hours:Hours`;
     }
@@ -88853,8 +88853,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62 = goog.getMsg("MM");
-      i18n_61 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62 = goog.getMsg("MM");
+      i18n_61 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_62;
     } else {
       i18n_61 = $localize`:@@ngb.timepicker.MM:MM`;
     }
@@ -88863,8 +88863,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64 = goog.getMsg("Minutes");
-      i18n_63 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64 = goog.getMsg("Minutes");
+      i18n_63 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS_64;
     } else {
       i18n_63 = $localize`:@@ngb.timepicker.minutes:Minutes`;
     }
@@ -88873,8 +88873,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66 = goog.getMsg("Increment hours");
-      i18n_65 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66 = goog.getMsg("Increment hours");
+      i18n_65 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__66;
     } else {
       i18n_65 = $localize`:@@ngb.timepicker.increment-hours:Increment hours`;
     }
@@ -88883,8 +88883,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68 = goog.getMsg("Decrement hours");
-      i18n_67 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68 = goog.getMsg("Decrement hours");
+      i18n_67 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__68;
     } else {
       i18n_67 = $localize`:@@ngb.timepicker.decrement-hours:Decrement hours`;
     }
@@ -88893,8 +88893,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70 = goog.getMsg("Increment minutes");
-      i18n_69 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70 = goog.getMsg("Increment minutes");
+      i18n_69 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__70;
     } else {
       i18n_69 = $localize`:@@ngb.timepicker.increment-minutes:Increment minutes`;
     }
@@ -88903,8 +88903,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72 = goog.getMsg("Decrement minutes");
-      i18n_71 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72 = goog.getMsg("Decrement minutes");
+      i18n_71 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__72;
     } else {
       i18n_71 = $localize`:@@ngb.timepicker.decrement-minutes:Decrement minutes`;
     }
@@ -88913,8 +88913,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74 = goog.getMsg("SS");
-      i18n_73 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74 = goog.getMsg("SS");
+      i18n_73 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__74;
     } else {
       i18n_73 = $localize`:@@ngb.timepicker.SS:SS`;
     }
@@ -88923,8 +88923,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76 = goog.getMsg("Seconds");
-      i18n_75 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76 = goog.getMsg("Seconds");
+      i18n_75 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__76;
     } else {
       i18n_75 = $localize`:@@ngb.timepicker.seconds:Seconds`;
     }
@@ -88933,8 +88933,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78 = goog.getMsg("Increment seconds");
-      i18n_77 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78 = goog.getMsg("Increment seconds");
+      i18n_77 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___78;
     } else {
       i18n_77 = $localize`:@@ngb.timepicker.increment-seconds:Increment seconds`;
     }
@@ -88943,8 +88943,8 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80 = goog.getMsg("Decrement seconds");
-      i18n_79 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80 = goog.getMsg("Decrement seconds");
+      i18n_79 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___80;
     } else {
       i18n_79 = $localize`:@@ngb.timepicker.decrement-seconds:Decrement seconds`;
     }
@@ -88953,14 +88953,14 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82 = goog.getMsg("{$interpolation}", {
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82 = goog.getMsg("{$interpolation}", {
         "interpolation": "\uFFFD0\uFFFD"
       }, {
         original_code: {
           "interpolation": "{{\n\t\t\t\t\t\t\ti18n.getAfternoonPeriod()\n\t\t\t\t\t\t}}"
         }
       });
-      i18n_81 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82;
+      i18n_81 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___82;
     } else {
       i18n_81 = $localize`:@@ngb.timepicker.PM:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
     }
@@ -88969,14 +88969,14 @@ NgbTimepicker.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__[
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84 = goog.getMsg("{$interpolation}", {
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84 = goog.getMsg("{$interpolation}", {
         "interpolation": "\uFFFD0\uFFFD"
       }, {
         original_code: {
           "interpolation": "{{ i18n.getMorningPeriod() }}"
         }
       });
-      i18n_83 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84;
+      i18n_83 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS___84;
     } else {
       i18n_83 = $localize`:@@ngb.timepicker.AM:${"\uFFFD0\uFFFD"}:INTERPOLATION:`;
     }
@@ -89552,8 +89552,8 @@ NgbToast.ɵcmp = /* @__PURE__ */_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
       /**
        * @suppress {msgDescriptions}
        */
-      const MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86 = goog.getMsg("Close");
-      i18n_85 = MSG_C___TASKS_20230207_AUTHMULTILANGUAGE_ANGULAR_SAMPLE_01_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86;
+      const MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86 = goog.getMsg("Close");
+      i18n_85 = MSG_C__REPOSITORIES_AUTH0LANG_NODE_MODULES__NG_BOOTSTRAP_NG_BOOTSTRAP_FESM2020_NG_BOOTSTRAP_MJS__86;
     } else {
       i18n_85 = $localize`:@@ngb.toast.close-aria:Close`;
     }
