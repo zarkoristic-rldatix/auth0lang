@@ -16,7 +16,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: 'https://zarkoristic-rldatix.github.io/auth0lang/',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,

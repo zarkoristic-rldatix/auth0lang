@@ -4,7 +4,7 @@
   "authorizationParams": {
     "audience": "https://dev-34gjeuelfllqr22f.eu.auth0.com/api/v2/"
   },
-  "apiUri": "http://localhost:3001",
+  "apiUri": "https://zarkoristic-rldatix.github.io/auth0lang/",
   "appUri": "https://zarkoristic-rldatix.github.io/auth0lang/",
   "errorPath": "/error"
 }
