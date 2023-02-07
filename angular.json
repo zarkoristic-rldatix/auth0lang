@@ -13,7 +13,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/auth0lang/",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -34,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/auth0lang/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -102,6 +102,9 @@
               "devServerTarget": "login-demo:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
