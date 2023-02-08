@@ -13,7 +13,7 @@ export const environment = {
   auth: {
     domain,
     clientId,
-    ...(audience && audience !== "https://dev-34gjeuelfllqr22f.eu.auth0.com/api/v2/" ? { audience } : null),
+    ...(audience && audience !== "https://allocate-identity-qa.eu.auth0.com/api/v2/" ? { audience } : null),
     redirectUri: window.location.origin,
     errorPath,
   },
