@@ -19,7 +19,7 @@ export const environment = {
     domain,
     clientId,
     authorizationParams: {
-      ...(audience && audience !== 'https://allocate-identity-qa.eu.auth0.com/api/v2/' ? { audience } : null),
+      ...(audience && audience !== 'https://dev-zarko.eu.auth0.com/api/v2/' ? { audience } : null),
       redirect_uri: window.location.origin,
     },
     errorPath,

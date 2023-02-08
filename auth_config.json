@@ -1,8 +1,8 @@
 {
-  "domain": "allocate-identity-qa.eu.auth0.com",
-  "clientId": "O4HHfSifi44EaqewkO072mMajT1p3XSR",
+  "domain": "dev-zarko.eu.auth0.com",
+  "clientId": "jnOVMdtPdYw7fpaJKxASC9y3GBO7owiy",
   "authorizationParams": {
-    "audience": "https://allocate-identity-qa.eu.auth0.com/api/v2/"
+    "audience": "https://dev-zarko.eu.auth0.com/api/v2/"
   },
   "apiUri": "https://zarkoristic-rldatix.github.io/auth0lang/",
   "appUri": "https://zarkoristic-rldatix.github.io/auth0lang/",
